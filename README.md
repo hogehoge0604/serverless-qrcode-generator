@@ -4,7 +4,7 @@ Generate QR Code by use of serverless framework
 
 ## Installation
 
-If yet serverless framework install. Please install from the following URL
+If yet serverless framework not been installed. Please install from the following URL
 https://serverless.com/framework/docs/providers/aws/guide/installation/
 
 1. Clone `serverless-qrcode-generator` from github
@@ -83,7 +83,7 @@ Access S3 and get the file
 serverless remove
 ```
 
-attention:
+attention:  
 If exists a file in S3 bucket, an error will occur.
 
 ## License
