@@ -1,0 +1,17 @@
+{
+  "name": "serverless-qrcode-generator",
+  "version": "0.1.0",
+  "description": "Serverless QR Code generator",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.6.7",
+    "qrcode": "^1.2.0"
+  },
+  "devDependencies": {
+    "serverless-apigw-binary": "^0.4.4"
+  }
+}
